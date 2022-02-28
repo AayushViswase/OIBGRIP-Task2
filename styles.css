@@ -1,0 +1,173 @@
+body {
+    min-width: 620px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1,
+  h2 {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .link:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .link:active {
+    color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .link--dots {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  
+  .container-fluid {
+    min-width: 620px;
+    padding: 0;
+  }
+  
+  header {
+    background-color: white;
+    padding: 15px 0;
+    color: black;
+  }
+  
+  main {
+    color: white;
+    background-color: rgba(0, 0, 1, 0.5);
+    padding: 0 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 50px;
+  }
+  
+  .text-title {
+    border-top: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
+    padding: 50px 10px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-image: url('https://images.vexels.com/media/users/3/140307/isolated/preview/382007f0d8744db97c4981d448a58c88-footballer-kicking-by-vexels.png');
+   background-repeat: no-repeat;
+   background-position: right;
+  }
+  
+  main .title {
+    position: relative;
+    font-size: 70px;
+    line-height: 176px;
+    z-index: 1;
+    margin-bottom: 90px;
+    margin-top: 10px;
+  }
+  
+  main .title::after {
+    position: absolute;
+    content: 'known as Pelé';
+    top: 100px;
+    left: 20px;
+    font-size: 120px;
+    line-height: 200px;
+    color: rgba(255, 255, 255, 0.4);
+    z-index: 0;
+  }
+  
+  .info .title::after {
+    display: none;
+  }
+  
+  .image__describtion {
+    position: relative;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 100px 0 60px;
+  }
+  
+  .image__describtion::after {
+    position: absolute;
+   
+    top: -80px;
+    left: 0;
+    font-size: 120px;
+    line-height: 120px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .image-two .image__describtion::after {
+    content:  'Pelé won';
+  }
+  
+  .info {
+    position: relative;
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0;
+  }
+    
+  .info-text {
+    padding: 60px 20px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .info .title {
+    position: absolute;
+    top: -45px;
+    left: center;
+    font-size: 40px;
+    line-height: 40px;
+    color: black;
+  }
+  
+  .author {
+    font-size: 30px;
+    line-height: 36px;
+    color: black;
+    padding-top: 50px;
+  }
+  
+  .wish {
+    color: black;
+    padding-bottom: 50px;
+  }
+  
+  .text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    line-height: 66px;
+    padding: 150px 0;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  footer {
+    font-family: 'Raleway Dots', cursive;
+    font-weight: 200;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    padding: 20px 0;
+  }
